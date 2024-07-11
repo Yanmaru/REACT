@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import AdminTest from './components/AdminTest';
+import Namelist from './components/NameList';
+// import Message from './components/Message';
+// import Greet from './components/Greet';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import UserGreeting from './components/UserGreeting';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Message/>
+      <Greet name ="Thomas" age ="24ans" />
+      <Greet name ="Awarlé" age ="xxx" />
+
+      <FunctionClick />
+      <ClassClick />  */}
+      {/* <UserGreeting/> */}
+      <AdminTest />
+      <Namelist />
+
+      
+      
+      
+      
+      
+      
+      
+      
+
     </div>
+    
   );
 }
+
+
+
+
 
 export default App;
